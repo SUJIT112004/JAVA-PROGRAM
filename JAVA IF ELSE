@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int temp = 45;
+	    if(temp > 20){
+	        System.out.println("the condition is yes");
+	    }else if(temp>80)
+	    {
+	        System.out.println("the condition is no");
+	    }else
+	    {
+	        System.out.println("the condition is equal");
+	    }
+	}
+}
