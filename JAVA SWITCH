@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    int age;
+	    Scanner sujit = new Scanner(System.in);
+	    age = sujit.nextInt();
+	    switch(age){
+	        case 1:
+	        System.out.println("small boy");
+	        break;
+	        case 2:
+	        System.out.println("large boy");
+	        break;
+	        case 3:
+	            System.out.println("big boy");
+	            break;
+	        default:
+	        System.out.println("big or small");
+	        break;
+	    }
+	}
+}
